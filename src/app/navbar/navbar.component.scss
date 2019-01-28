@@ -1,0 +1,31 @@
+#global-nav {
+    -webkit-transition: background-color .5s; /* Safari */
+    transition: background-color .5s;
+    border-bottom: 1px solid #e5e5e5;
+}
+.brand-logo {
+    font-family: 'Satisfy';
+    -webkit-transition: color .5s; /* Safari */
+    transition: color .5s;
+}
+.counter {
+    width: 20px;
+    height: 20px;
+    background: black;
+    color: #fff;
+    position: fixed;
+    top: 120px;
+    right: 0;
+}
+.scrolled-nav {
+    background-color: #fff !important;
+}
+.brand-logo-scrolled {
+    color: #5d4037;
+}
+
+@media screen and (max-width: 640px) {
+    .brand-logo {
+        font-size: 150%;
+    }
+}

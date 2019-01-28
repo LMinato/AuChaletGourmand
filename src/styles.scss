@@ -1,1 +1,31 @@
 /* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Satisfy|Work+Sans:100,300,400');
+@import url('https://fonts.googleapis.com/css?family=Parisienne|Work+Sans:100,300,400');
+
+.blured {
+    filter: blur(3px)
+}
+
+.container.menu {
+    width: 85% !important;
+}
+
+blockquote.quote-brown {
+    border-left-color: #6d4c41;
+}
+.row.cancel-margin-bottom {
+    margin-bottom: 0;
+}
+.satisfy {
+    font-family: 'Satisfy';
+}
+
+@media screen and (max-width: 640px) {
+    h3 {
+        font-size:200%;
+    }
+    h5 {
+        font-size:125%;
+    }
+}
