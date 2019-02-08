@@ -8,7 +8,7 @@ import { Component, OnInit, Input } from '@angular/core';
 export class MenucardComponent implements OnInit {
 
   @Input() menu: any;
-  @Input() index: Int16Array;
+  @Input() index: number;
 
   constructor() { }
 
