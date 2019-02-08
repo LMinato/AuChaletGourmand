@@ -1,21 +1,83 @@
-<!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-  <img width="300" alt="Angular Logo" src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg==">
+<app-navbar></app-navbar>
+<div class="parallax-container">
+  <div class="parallax blured"><img src="../assets/images/restauparallax1.jpg" alt="auchaletgourmand"></div>
 </div>
-<h2>Here are some links to help you start: </h2>
-<ul>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://angular.io/tutorial">Tour of Heroes</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://github.com/angular/angular-cli/wiki">CLI Documentation</a></h2>
-  </li>
-  <li>
-    <h2><a target="_blank" rel="noopener" href="https://blog.angular.io/">Angular blog</a></h2>
-  </li>
-</ul>
+<div class="section white">
+  <div class="row cancel-margin-bottom">
+    <div class="col s6 m6 l5 container">
+      <h3 class="grey-text text-darken-3 lighten-3 center-align">Au Chalet Gourmand</h3>
+      <h5 class="grey-text text-darken-3 lighten-3 center-align">Restaurant Brasserie</h5>
+    </div>
+    <div class="col s6 m4 l5 offset-m2 offset-l1 container">
+      <blockquote class="quote-brown">
+        Ouvert tous les jours sauf dimanche, lundi et mardi soirs<br />
+        Repas de groupe. Soirée à thème.<br />
+        <br />
+        <i class="tiny material-icons">location_on</i> 36 rue de la liberté<br />
+        <i class="tiny material-icons">local_post_office</i> 90400 Moval<br />
+        <i class="tiny material-icons">local_phone</i> 03.84.56.18.59<br />
+      </blockquote>
+    </div>
+  </div>
+</div>
+<app-menus></app-menus>
+<div>
+  <div class="section white">
+    <h3 class="grey-text text-darken-3 lighten-3 center satisfy">A propos de nous ...</h3>
 
-<router-outlet></router-outlet>
+    <div class="row container">
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+      <div class="col s12 m4 l4">
+        <div class="card">
+          <div class="card-image">
+            <img src="../assets/images/sample-1.jpg">
+            <span class="card-title">Card Title</span>
+          </div>
+          <div class="card-content">
+            <p>I am a very simple card. I am good at containing small bits of information.
+              I am convenient because I require little markup to use effectively.</p>
+          </div>
+          <div class="card-action">
+            <a href="#">This is a link</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<footer class="page-footer brown darken-1">
+  <div class="footer-copyright">
+    <div class="container">
+      © 2018 Lucas CORAILLER
+    </div>
+  </div>
+</footer>

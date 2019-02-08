@@ -1,0 +1,23 @@
+.menu-header {
+    margin-bottom: 2vw;
+}
+.menu-item {
+    font-size:150%;
+    margin:15px;
+}
+.cancel-margin {
+    margin: 0;
+}
+.parisienne {
+    font-family: 'Parisienne';
+}
+.price {
+    font-size: 75%;
+}
+
+@media screen and (max-width: 640px) {
+    .menu-item {
+        margin: 2vw;
+        font-size:100%;
+    }
+}
