@@ -6,19 +6,19 @@ import { HttpModule } from '@angular/http';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NavbarComponent } from './navbar/navbar.component';
-import { MenusComponent } from './menus/menus.component';
-import { MenucardComponent } from './menus/menucard/menucard.component';
 import { ContactDetailsComponent } from './contacts/contact-details/contact-details.component';
 import { ContactListComponent } from './contacts/contact-list/contact-list.component';
+import { MenusListComponent } from './menus/menus-list/menus-list.component';
+import { MenusViewComponent } from './menus/menus-view/menus-view.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavbarComponent,
-    MenusComponent,
-    MenucardComponent,
     ContactDetailsComponent,
-    ContactListComponent
+    ContactListComponent,
+    MenusListComponent,
+    MenusViewComponent
   ],
   imports: [
     BrowserModule,

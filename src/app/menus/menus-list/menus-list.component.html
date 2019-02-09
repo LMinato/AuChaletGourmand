@@ -1,9 +1,8 @@
 <div class="section wood">
   <div class="container menu">
     <h1 class="brown-text text-lighten-2 satisfy center">La carte</h1>
-    <app-menucard *ngFor="let menu of menus; let i = index"
+    <app-menus-view *ngFor="let menu of menus; let i = index"
                   [menu]="menu" [index]="i">
-
-    </app-menucard>
+    </app-menus-view>
   </div>
 </div>

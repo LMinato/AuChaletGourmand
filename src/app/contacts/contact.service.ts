@@ -1,15 +1,18 @@
 import { Injectable } from '@angular/core';
 import { Contact } from './contact';
 import { Http, Response } from '@angular/http';
+import { environment } from 'src/environments/environment';
 
 @Injectable()
 export class ContactService {
-    private contactsUrl = '/api/contacts';
+    private contactsUrl = environment.API_URL + '/api/contacts';
 
     constructor (private http: Http) {}
 
     // get("/api/contacts")
     getContacts(): Promise<void | Contact[]> {
+      console.log(this.contactsUrl);
+      
       return this.http.get(this.contactsUrl)
                  .toPromise()
                  .then(response => response.json() as Contact[])
