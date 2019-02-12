@@ -16,11 +16,7 @@ app.use(express.static(__dirname + '/dist/AuChaletGourmand'));
 app.use(express.static(__dirname + '/UnderConstruction'));
 
 app.get('/', function(req,res) {
-    res.redirect('/underconstruction');
-    //res.sendFile(path.join(__dirname+'/dist/AuChaletGourmand/index.html'));
-});
-app.get('/underconstruction', function(req, res) {
-    res.sendFile(path.join(__dirname + '/UnderConstruction/index.html'))
+    res.sendFile(path.join(__dirname+'/dist/AuChaletGourmand/index.html'));
 });
 
 // Create a database variable outside of the database connection callback to reuse the connection pool in your app.

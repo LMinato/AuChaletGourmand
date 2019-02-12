@@ -9,7 +9,7 @@ import { Menu } from '../menu';
 export class MenusViewComponent implements OnInit {
 
   @Input() menu: Menu;
-  @Input() index: Int16Array;
+  @Input() index: number;
 
   constructor() { }
 
