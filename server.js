@@ -13,7 +13,6 @@ app.use(bodyParser.json());
 
 // Serve only the static files form the dist directory
 app.use(express.static(__dirname + '/dist/AuChaletGourmand'));
-app.use(express.static(__dirname + '/UnderConstruction'));
 
 app.get('/', function(req,res) {
     res.sendFile(path.join(__dirname+'/dist/AuChaletGourmand/index.html'));
