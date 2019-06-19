@@ -4,7 +4,6 @@ import { MenusService } from '../menus.service';
 
 declare var $: any;
 
-
 @Component({
   selector: 'app-menus-list',
   templateUrl: './menus-list.component.html',
@@ -21,7 +20,7 @@ export class MenusListComponent implements OnInit, AfterViewInit {
       this.menus = menus.map((menus) => {        
         return menus;
       });
-    });  
+    });    
   }
   ngAfterViewInit() {
     $(function () {
